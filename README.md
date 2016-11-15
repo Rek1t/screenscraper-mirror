@@ -1,9 +1,11 @@
 # screenscraper-mirror
 Mirror for screen scrapper
 
-Env variables :  
-- ENV HOST_PROTOCOLE (protocole to use when sending requests to remote : http, https)
-- ENV HOST_MIRROR (site to mirror : www.screenscraper.fr)
+Env variables :
+
+- ENV REMOTE_PROTOCOLE (protocole to use when sending requests to remote : http, https)
+- ENV REMOTE_HOST (site to mirror : www.screenscraper.fr)
+- ENV MIRROR_URL (front url of the mirror)
 - ENV DEV_ID '' (developer account id)
 - ENV DEV_PASSWORD '' (developper account password)
 - ENV SOFTNAME '' (developper account softname)
