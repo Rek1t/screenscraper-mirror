@@ -1,5 +1,7 @@
 FROM nginx:1.11.5
 
+ENV HOST_PROTOCOLE 'http'
+ENV HOST_MIRROR 'www.screenscraper.fr'
 ENV DEV_ID ''
 ENV DEV_PASSWORD ''
 ENV SOFTNAME ''
