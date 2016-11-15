@@ -6,9 +6,9 @@ Env variables :
 - ENV REMOTE_PROTOCOLE (protocole to use when sending requests to remote : http, https)
 - ENV REMOTE_HOST (site to mirror : www.screenscraper.fr)
 - ENV MIRROR_URL (front url of the mirror)
-- ENV DEV_ID '' (developer account id)
-- ENV DEV_PASSWORD '' (developper account password)
-- ENV SOFTNAME '' (developper account softname)
+- ENV DEV_ID (developer account id)
+- ENV DEV_PASSWORD (developper account password)
+- ENV SOFTNAME (developper account softname)
 - ENV CACHE_TTL (time to live for the cache, default : 7d)
 
 Testing perf :  
